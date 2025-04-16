@@ -1,1 +1,49 @@
+#linkedin-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  z-index: 10000;
+}
+
+#linkedin-widget h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#linkedin-widget p,
+#linkedin-widget label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#linkedin-widget progress {
+  width: 100%;
+}
+
+#account-status {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+#toggle-widget {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
